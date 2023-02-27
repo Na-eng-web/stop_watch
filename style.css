@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    height: fit-content;
+    width: 10rem;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#time{
+    font-size: 2rem;
+    margin: 0.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: whitesmoke;
+}
+
+#start{
+    margin: 0.5rem 0;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+}
+
+#pause{
+    margin: 0.3rem 0;
+    background-color: yellow;
+    border-radius: 10px;
+    color: rgb(11, 29, 1);
+    font-size: 1rem;
+    border: none;
+}
+#stop{
+    background-color: red;
+    border-radius: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 1rem;
+    border: none;
+
+}
